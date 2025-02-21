@@ -6,8 +6,8 @@ const userLogin = useCookie<Login | null>("user");
 userLogin.value = {
   status: true,
   msg: "Hola",
-  name: "Jhon",
-  email: "jhon@gmail.com",
+  name: "Eduardo",
+  email: "2201010225@gmail.com",
   token: "123456789",
   tipoUsuario: ["ADMIN"]
 }

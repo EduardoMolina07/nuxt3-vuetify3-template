@@ -32,6 +32,7 @@ const menus = ref([
     toSub: [
       { title: "Usuarios", value: "periodo academico", to: "/configurations/usuarios", view: isRule(["ADMIN"]) },
       { title: "Avanzado", value: "Avanzado", to: "/configurations/avanzado", view: isRule(["ADMIN"]) },
+      { title: "Gestión de Personajes", value: "personajes", to: "/personajes", view: true }, // 🔥 Nuevo enlace
     ]
   }
 ])

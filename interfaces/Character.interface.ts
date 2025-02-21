@@ -25,6 +25,7 @@ export interface Result {
     episode:  string[];
     url:      string;
     created:  string;
+    
 }
 
 export enum Gender {
